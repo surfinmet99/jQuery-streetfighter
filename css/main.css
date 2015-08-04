@@ -3,9 +3,11 @@ body {
 }
 
 .main {
+	background-image: url('../images/stage.gif');
+	background-size: 100%;
 	background-color: white;
 	margin-top: 110px;
-	padding-left: 100px;
+	padding-left: 0em;
 	min-width: 1200px;
 	height: 500px;
 	position: relative;
@@ -13,10 +15,12 @@ body {
 }
 
 .main h1 {
+	color: #fff;
+	text-shadow: 1px 1px black;
 	font-size: 2em;
 	margin: 2.67em 2.67em;
-	padding-top: 2.67em;
-	font-family: serif;
+	padding-top: 1.67em;
+	font-family: 'Shojumaru', cursive;
 }
 
 .ryu {
